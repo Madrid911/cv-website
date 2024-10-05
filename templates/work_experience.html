@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mosehlane Lekgau</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/education">Education</a></li>
+                <li><a href="/work_experience">Work Experience</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Work Experience</h2>
+        <ul>
+            {% for work in work %}
+                <li><strong>{{ work['job_title'] }}</strong> at {{ work['company'] }} ({{ work['year_started'] }} - {{ work['year_ended'] }})</li>
+            {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mosehlane Lekgau. All rights reserved.</p>
+    </footer>
+</body>
+</html>

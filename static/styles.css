@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background */
+}
+
+header, footer {
+    background-color: #333; /* Dark header/footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+    text-decoration: underline; /* Underline the text */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Restrict width for better readability */
+    border: 1px solid #ccc;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for effect */
+}
+
+h2 {
+    border-bottom: 2px solid #333; /* Underline section titles */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333; /* Dark button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #555; /* Lighter on hover */
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
